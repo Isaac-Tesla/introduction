@@ -14,9 +14,7 @@ This is to setup the Command Line Interface for Amazon Web Services.
 ./init_aws.sh
 ```
 
-2. Setup an IAM group / user with s3 access (requires admin privileges).
-
-3. Configure by running the command:
+2. Configure by running the command:
 
 ```
 aws configure

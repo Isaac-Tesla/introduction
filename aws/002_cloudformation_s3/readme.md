@@ -1,5 +1,11 @@
 # To create / delete an s3 bucket
 
+Prerequisite:
+
+1. Setup an IAM group / user with s3 access (requires admin privileges).
+
+</br>
+
 ## Create
 
 1. From the current folder run: 
