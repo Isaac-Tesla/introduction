@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  WebInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      BlockDeviceMappings:
+        -
+          DeviceName: "/dev/sda1"
+          Ebs:
+            VolumeSize: 20
+            VolumeType: gp2
+      InstanceType: t2.nano
+      ImageId: ami-0b7dcd6e6fd797935
+      Tags:
+        -
+          Key: Name
+          Value: webserver
