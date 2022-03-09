@@ -6,7 +6,7 @@ Reference - https://docs.microsoft.com/en-us/azure/templates/microsoft.storage/s
 
 ## Deployment Steps
 
-1. Login    
+1. Login (if you haven't already)    
 
 ```
 az login
