@@ -14,8 +14,18 @@ This is to setup the Command Line Interface for Google Cloud Platform.
 ./init_gcp.sh
 ```
 
+</br>
+
 2. Confirm installation by running the command:
 
 ```
 gcloud --version
+```
+
+</br>
+
+3. Login to Google cloud platform, run the following command and follow the prompts in your browser.   
+
+```
+gcloud auth login
 ```
